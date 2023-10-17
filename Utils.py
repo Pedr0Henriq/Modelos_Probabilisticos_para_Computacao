@@ -1,0 +1,13 @@
+lista= [2133,2400,2666,3000,3200,3400,3600,4266,4400]
+list2= [2112,2391,2546,2987,3021,3260,3580,4251,4319]
+quadrado= map(lambda x: x**2,lista)
+quadrado2= map(lambda x: x**2,list2)
+mult= map(lambda x,y: x*y,lista,list2)
+quadrado_list= list(quadrado)
+quadrado_list2= list(quadrado2)
+mult_list= list(mult)
+somax = sum(lista)
+somay = sum(list2)
+somax2= sum(quadrado_list)
+somay2= sum(quadrado_list2)
+somaxy= sum(mult_list)
